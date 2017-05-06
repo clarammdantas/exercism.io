@@ -141,7 +141,7 @@ $(function() {
 
     // construct reply
     var nitQuoted = "@" + nitpicker + " commented:\n";
-    nitQuoted += nitRaw.split('\n').map(function(x) { return "> " + x; }).join('\n');
+    nitQuoted += nitRaw.split('\n').map(function(x) { return "C> " + x; }).join('\n');
     nitQuoted += '\n';
 
     // switch to 'Write' tab incase 'Preview' tab was selected
