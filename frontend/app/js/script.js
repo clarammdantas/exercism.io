@@ -140,7 +140,7 @@ $(function() {
     var nitpicker = commentBodyDiv.data('nitpicker');
 
     // construct reply
-    var nitQuoted = "@" + nitpicker + " commented:\n";
+    var nitQuoted = '\n' + "@" + nitpicker + " commented:\n";
     nitQuoted += nitRaw.split('\n').map(function(x) { return "> " + x; }).join('\n');
     nitQuoted += '\n';
 
